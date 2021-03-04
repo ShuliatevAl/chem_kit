@@ -19,13 +19,16 @@
             <img class="nav__img img">
             <ul class="nav__list list">
                 <li class="list__item item">
-                    <a class="item__link link"></a>
+                    <a class="item__link link">Кто мы</a>
                 </li>
                 <li class="list__item item">
-                    <a class="item__link link"></a>
+                    <a class="item__link link">Фишки</a>
                 </li>
                 <li class="list__item item">
-                    <a class="item__link link"></a>
+                    <a class="item__link link">Набор</a>
+                </li>
+                <li class="list__item item">
+                    <a class="item__link link">Заказать</a>
                 </li>
             </ul>
         </nav>
@@ -42,10 +45,10 @@
                 <p class="preview__text text">
 
                 </p>
-                <a class="preview__button preview__button--colored button">
+                <a class="preview__button preview__button-colored button">
 
                 </a>
-                <a class="preview__button preview__button--transparent button">
+                <a class="preview__button preview__button-transparent button">
 
                 </a>
             </section>
@@ -70,6 +73,80 @@
             </section>
             <section class="section__kit kit">
 
+            </section>
+            <section class="section__appointment appointment">
+                <h2 class="appointment__title title">
+                    Записаться
+                </h2>
+                <h3 class="appointment__subtitle subtitle">
+                    Хочешь узнать
+                </h3>
+                <form class="appointment__form form" action="index.html" method="POST">
+                    <div class="form__field-holder form__field-holder_name">
+                        <input id="firstname-field" class="form__field" type="text" name="firstname" placeholder="Иван">
+                        <label for="firstname-field" class="form__label">Ваше имя</label>
+                    </div>
+                    <div class="form__field-holder form__field-holder_surmane">
+                        <input id="surname-field" class="form__field" type="text" name="surname" placeholder="Иванов">
+                        <label for="surname-field" class="form__label">Ваша фамилия</label>
+                    </div>
+                    <div class="form__field-holder form__field-holder_mail">
+                        <input id="email-field" class="form__field" type="email" name="email"
+                            placeholder="awesomeVan@mail.ru">
+                        <label for="email-field" class="form__label">Электронная почта</label>
+                    </div>
+                    <div class="form__field-holder form__field-holder_index">
+                        <input id="index-field" class="form__field" type="text" name="index" placeholder="420073">
+                        <label for="index-field" class="form__label">Почтовый индекс</label>
+                    </div>
+                    <div class="form__field-holder form__field-holder_city">
+                        <input id="city-field" class="form__field" type="text" name="city" placeholder="Казань">
+                        <label for="city-field" class="form__label">Город</label>
+                    </div>
+                    <div class="form__field-holder form__field-holder_street">
+                        <input id="street-field" class="form__field" type="text" name="street"
+                            placeholder="Карла-Маркса">
+                        <label for="street-field" class="form__label">Улица</label>
+                    </div>
+                    <div class="form__field-holder form__field-holder_house">
+                        <input id="house-field" class="form__field" type="text" name="house" placeholder="51">
+                        <label for="house-field" class="form__label">Город</label>
+                    </div>
+                    <div class="form__field-holder form__field-holder_entrance">
+                        <input id="entrance-field" class="form__field" type="text" name="entrance" placeholder="2">
+                        <label for="entrance-field" class="form__label">Подъезд</label>
+                    </div>
+                    <div class="form__field-holder form__field-holder_flat">
+                        <input id="flat-field" class="form__field" type="text" name="flat" placeholder="23">
+                        <label for="flat-field" class="form__label">Квартира</label>
+                    </div>
+                    <button class="form__button button" type="submit">Оставить заявку</button>
+                </form>
+                <div class="appointment__description">
+                    <h4 class="description__title title">
+                        Мы готовы разрабатывать что-то новое
+                    </h4>
+                    <p class="description__text text">
+                        Dorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar scelerisque
+                        dictum. Donec iaculis, diam sit amet suscipit feugiat, diam magna volutpat augue.
+
+                        Consectetur adipiscing elit. Suspendisse pulvinar scelerisque dictum. Donec iaculis, diam sit
+                        amet suscipit feugiat, diam magna volutpat augue.
+                    </p>
+                </div>
+                <ul class="appointment__contacts contacts list">
+                    <li class="contacts__item">
+                        <p class="contacts__text text">
+
+                        </p>
+                    </li>
+                    <li class="contacts__item item">
+                        <a class="contacts__phone"></a>
+                    </li>
+                    <li class="contacts__item item">
+                        <a class="contacts__mail"></a>
+                    </li>
+                </ul>
             </section>
         </div>
     </main>
