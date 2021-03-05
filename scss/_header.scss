@@ -1,0 +1,51 @@
+.header {
+    height: 75px;
+    width: $maxWidth;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: cornflowerblue;
+
+    &__logo {
+        height: 30px;
+        width: 50px;
+
+        background-color: black;
+    }
+}
+
+.menu {
+
+    &__list {
+        position: relative;
+        top: 15px;
+        right: 10px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    &__item {
+        padding: 0 15;
+        
+        &:nth-of-type(odd) {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    &__link {
+        text-align: center;
+
+        &:hover, &:focus, &:active {
+            color: red;     
+        }
+    }
+}

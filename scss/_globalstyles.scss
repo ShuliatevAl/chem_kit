@@ -26,16 +26,10 @@ $md4: 600px;
 
 // Основная сетка
  
-._container {
+.__container {
     max-width: $maxWidth;
     margin: 0 auto;
     padding: 0 20px;
-}
-
-._container2 {
-    max-width: $maxWidth;
-    margin: 0 auto;
-    padding: 0;
 }
 
 // Глобальные стили
