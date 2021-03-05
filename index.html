@@ -82,44 +82,50 @@
                     Хочешь узнать
                 </h3>
                 <form class="appointment__form form" action="index.html" method="POST">
-                    <div class="form__field-holder form__field-holder_name">
-                        <input id="firstname-field" class="form__field" type="text" name="firstname" placeholder="Иван">
-                        <label for="firstname-field" class="form__label">Ваше имя</label>
-                    </div>
-                    <div class="form__field-holder form__field-holder_surmane">
-                        <input id="surname-field" class="form__field" type="text" name="surname" placeholder="Иванов">
-                        <label for="surname-field" class="form__label">Ваша фамилия</label>
-                    </div>
-                    <div class="form__field-holder form__field-holder_mail">
-                        <input id="email-field" class="form__field" type="email" name="email"
-                            placeholder="awesomeVan@mail.ru">
-                        <label for="email-field" class="form__label">Электронная почта</label>
-                    </div>
-                    <div class="form__field-holder form__field-holder_index">
-                        <input id="index-field" class="form__field" type="text" name="index" placeholder="420073">
-                        <label for="index-field" class="form__label">Почтовый индекс</label>
-                    </div>
-                    <div class="form__field-holder form__field-holder_city">
-                        <input id="city-field" class="form__field" type="text" name="city" placeholder="Казань">
-                        <label for="city-field" class="form__label">Город</label>
-                    </div>
-                    <div class="form__field-holder form__field-holder_street">
-                        <input id="street-field" class="form__field" type="text" name="street"
-                            placeholder="Карла-Маркса">
-                        <label for="street-field" class="form__label">Улица</label>
-                    </div>
-                    <div class="form__field-holder form__field-holder_house">
-                        <input id="house-field" class="form__field" type="text" name="house" placeholder="51">
-                        <label for="house-field" class="form__label">Город</label>
-                    </div>
-                    <div class="form__field-holder form__field-holder_entrance">
-                        <input id="entrance-field" class="form__field" type="text" name="entrance" placeholder="2">
-                        <label for="entrance-field" class="form__label">Подъезд</label>
-                    </div>
-                    <div class="form__field-holder form__field-holder_flat">
-                        <input id="flat-field" class="form__field" type="text" name="flat" placeholder="23">
-                        <label for="flat-field" class="form__label">Квартира</label>
-                    </div>
+                    <fieldset>
+                        <legend>Как к Вам обращаться?</legend>
+                        <div class="form__field-holder form__field-holder_name">
+                            <input id="firstname-field" class="form__field" type="text" name="firstname" placeholder="Иван">
+                            <label for="firstname-field" class="form__label">Ваше имя</label>
+                        </div>
+                        <div class="form__field-holder form__field-holder_surmane">
+                            <input id="surname-field" class="form__field" type="text" name="surname" placeholder="Иванов">
+                            <label for="surname-field" class="form__label">Ваша фамилия</label>
+                        </div>
+                        <div class="form__field-holder form__field-holder_mail">
+                            <input id="email-field" class="form__field" type="email" name="email"
+                                placeholder="awesomeVan@mail.ru">
+                            <label for="email-field" class="form__label">Электронная почта</label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Адрес доставки</legend>
+                        <div class="form__field-holder form__field-holder_index">
+                            <input id="index-field" class="form__field" type="text" name="index" placeholder="420073">
+                            <label for="index-field" class="form__label">Почтовый индекс</label>
+                        </div>
+                        <div class="form__field-holder form__field-holder_city">
+                            <input id="city-field" class="form__field" type="text" name="city" placeholder="Казань">
+                            <label for="city-field" class="form__label">Город</label>
+                        </div>
+                        <div class="form__field-holder form__field-holder_street">
+                            <input id="street-field" class="form__field" type="text" name="street"
+                                placeholder="Карла-Маркса">
+                            <label for="street-field" class="form__label">Улица</label>
+                        </div>
+                        <div class="form__field-holder form__field-holder_house">
+                            <input id="house-field" class="form__field" type="text" name="house" placeholder="51">
+                            <label for="house-field" class="form__label">Город</label>
+                        </div>
+                        <div class="form__field-holder form__field-holder_entrance">
+                            <input id="entrance-field" class="form__field" type="text" name="entrance" placeholder="2">
+                            <label for="entrance-field" class="form__label">Подъезд</label>
+                        </div>
+                        <div class="form__field-holder form__field-holder_flat">
+                            <input id="flat-field" class="form__field" type="text" name="flat" placeholder="23">
+                            <label for="flat-field" class="form__label">Квартира</label>
+                        </div>
+                    </fieldset>
                     <button class="form__button button" type="submit">Оставить заявку</button>
                 </form>
                 <div class="appointment__description">
