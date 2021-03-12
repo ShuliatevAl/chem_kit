@@ -133,12 +133,20 @@ a {
 }
 
 .header {
-  height: 75px;
-  width: 1240px;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 5;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header__holder {
+  height: 75px;
+  max-width: 1200px;
+  position: relative;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -151,6 +159,7 @@ a {
 .header__logo {
   height: 30px;
   width: 50px;
+  margin: auto 20px;
   background-color: black;
 }
 
@@ -170,13 +179,17 @@ a {
           justify-content: space-between;
 }
 
+.menu__list:last-of-type {
+  padding-right: 50px;
+}
+
 .menu__item {
-  padding: 0 15;
+  padding: 0 15px;
 }
 
 .menu__item:nth-of-type(odd) {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .menu__link {
@@ -185,4 +198,51 @@ a {
 
 .menu__link:hover, .menu__link:focus, .menu__link:active {
   color: red;
+}
+
+.main {
+  margin-top: 75px;
+}
+
+.preview {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-image: url(/img/preview_back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.preview__holder {
+  width: 600px;
+  margin: 0 auto 0 auto;
+}
+
+.preview__title {
+  font-size: 36px;
+  color: green;
+}
+
+.preview__text {
+  margin-top: 10px;
+  font-style: italic;
+  line-height: 28px;
+}
+
+.preview__button {
+  width: 150px;
+  margin-top: 25px;
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+.preview__button:hover, .preview__button:active, .preview__button:focus {
+  background-color: orange;
+}
+
+.preview__button:last-of-type {
+  margin-left: 20px;
+  color: green;
 }
