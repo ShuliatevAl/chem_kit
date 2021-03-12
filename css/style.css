@@ -246,3 +246,113 @@ a {
   margin-left: 20px;
   color: green;
 }
+
+.features {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+.features__title {
+  position: relative;
+  top: 50px;
+}
+
+.features__subtitle {
+  position: relative;
+  top: -50px;
+}
+
+.features__content {
+  margin-top: 175px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.features__item {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 33%;
+  margin: 0 15px;
+}
+
+.features__item::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -120px;
+  margin-left: -57px;
+  border-radius: 25%;
+  background-image: url(/img/Icon1.png);
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: center;
+  -webkit-box-shadow: 1px 1px 5px #000;
+          box-shadow: 1px 1px 5px #000;
+}
+
+.features__name {
+  font-size: 18px;
+  line-height: 24px;
+  color: brown;
+}
+
+.features__text {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.appointment {
+  margin-top: 10px;
+}
+
+.appointment__title {
+  text-align: center;
+}
+
+.appointment__subtitle {
+  text-align: center;
+}
+
+.form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: none;
+}
+
+.form__right {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.form__left {
+  -ms-flex-preferred-size: 54%;
+      flex-basis: 54%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.form__button {
+  margin: 10px auto 10px auto;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+}
