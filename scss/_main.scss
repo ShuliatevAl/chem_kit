@@ -1,0 +1,214 @@
+.main {
+    margin-top: 75px;
+
+    color: white;
+}
+
+.preview {
+    padding: 15%;
+
+    &__holder {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__title {
+        font-family: "Podkova", "Podkova-Bold";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    &__text {
+        margin-top: 2%;
+
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+
+        text-transform: lowercase;
+    }
+
+    &__button--holder {
+        width: 100px;
+        height: 100px;
+
+        text-align: center;
+        background-color: orangered;
+
+        box-shadow: 5px 5px 5px -4px rgba(255, 69, 0, 0.5);
+    }
+
+    &__button {
+        margin-top: 28%;
+
+        font-family: "Podkova", "Podkova-Bold";
+        font-weight: 700;
+        font-size: 24px;
+        color: black;
+
+        cursor: pointer;
+    }
+}
+
+/* 
+/ Preview box
+
+.preview {
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+    background-image: url(/img/preview_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    text-align: center;
+
+    &__holder {
+        width: 600px;
+        margin: 0 auto 0 auto;
+    }
+
+    &__title {
+        font-size: 36px;
+        color: green;
+    }
+
+    &__text {
+        margin-top: 10px;
+
+        font-style: italic;
+        line-height: 28px;
+    }
+
+    &__button {
+        width: 150px;
+
+        margin-top: 25px;
+
+        border: 1px solid black;
+
+        font-size: 16px;
+
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: orange;
+        }
+
+        &:last-of-type {
+            margin-left: 20px;
+            color: green;
+        }
+    }
+}
+
+// Features box
+
+.features {
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    text-align: center;
+
+    &__title {
+        position: relative;
+        top: 50px;
+    }
+
+    &__subtitle {
+        position: relative;
+        top: -50px;
+    }
+
+    &__content {
+        margin-top: 175px;
+
+        position: relative;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        flex-grow: 1;
+
+        width: 33%;
+
+        margin: 0 15px;
+
+        &::before {
+            content: "";
+            width: 100px;
+            height: 100px;
+
+            position: absolute;
+            top: -120px;
+
+            margin-left: -57px;
+
+            border-radius: 25%;
+            background-image: url(/img/Icon1.png);
+            background-repeat: no-repeat;
+            background-size: 100px 100px;
+            background-position: center;
+
+            box-shadow: 1px 1px 5px #000;
+        }
+    }
+
+    &__name {
+        font-size: 18px;
+        line-height: 24px;
+        color: brown;
+    }
+
+    &__text {
+        margin-top: 10px;
+
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+// Form box
+
+.appointment {
+    margin-top: 10px;
+
+    &__title {
+        text-align: center;
+    }
+
+    &__subtitle {
+        text-align: center;
+    }
+}
+
+.form {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    text-transform: none;
+
+    &__right {
+        flex-basis: 45%;
+        flex-grow: 1;
+    }
+
+    &__left {
+        flex-basis: 54%;
+        flex-grow: 1;
+    }
+
+    &__button {
+        margin: 10px auto 10px auto;
+        flex-basis: 20%;
+    }
+}
+*/

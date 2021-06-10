@@ -1,44 +1,51 @@
 .header {
     width: 100%;
-    
+
     position: fixed;
     top: 0;
     left: 0;
     z-index: 5;
-    
+
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0;
 
     &__holder {
         height: 75px;
-        max-width: 1200px;
+        max-width: 100%;
         position: relative;
 
         padding: 0;
 
         display: flex;
         justify-content: space-between;
-        
-        background-color: cornflowerblue;
-    }
-
-    &__logo {
-        height: 30px;
-        width: 50px;
-
-        margin: auto 20px;
 
         background-color: black;
     }
+
+    &__name {
+        margin: auto 40px;
+    }
+}
+
+.name {
+    font-family: "PT Sans", "PTSans-Regular";
+    font-style: normal;
+    font-weight: 400;
+    color: white;
 }
 
 .menu {
+    font-family: "Podkova", "Podkova-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
 
     &__list {
         position: relative;
         top: 15px;
         right: 10px;
-        
+
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -47,10 +54,10 @@
             padding-right: 50px;
         }
     }
-    
+
     &__item {
         padding: 0 15px;
-        
+
         &:nth-of-type(odd) {
             padding-left: 15px;
             padding-right: 15px;
@@ -60,10 +67,10 @@
     &__link {
         text-align: center;
 
-        &:hover, 
-        &:focus, 
+        &:hover,
+        &:focus,
         &:active {
-            color: red;     
+            color: orangered;
         }
     }
 }

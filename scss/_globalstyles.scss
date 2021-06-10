@@ -3,14 +3,31 @@
 /* pt-sans-regular - latin_cyrillic */
 
 @font-face {
-    font-family: 'PT Sans';
+    font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: local('PT Sans'), local('PTSans-Regular'),
-         url('fonts/pt-sans-v11-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('fonts/pt-sans-v11-latin_cyrillic-regular.woff') format('woff') /* Modern Browsers */
+    src: local("PT Sans"), local("PTSans-Regular"), url("fonts/pt-sans-v11-latin_cyrillic-regular.ttf") format("ttf");
 }
 
+/* Podkova-regular cyrillic */
+
+@font-face {
+    font-family: "Podkova";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Podkiva"), local("Podkova-Regular"), url("/fonts/Podkovaregular.woff2") format("woff2"),
+        url("/fonts/Podkovaregular.woff") format("woff");
+}
+
+/* Podkova-bold cyrillic */
+
+@font-face {
+    font-family: "Podkova";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Podkiva"), local("Podkova-Bold"), url("/fonts/Podkovabold.woff2") format("woff2"),
+        url("/fonts/Podkovabold.woff") format("woff");
+}
 
 // Переменные
 
@@ -25,7 +42,7 @@ $md4: 600px;
 // Шаблоны
 
 // Основная сетка
- 
+
 .__container {
     max-width: $maxWidth;
     margin: 0 auto;
@@ -35,14 +52,14 @@ $md4: 600px;
 // Глобальные стили
 
 .visually-hidden {
-	position: absolute;
-	overflow: hidden;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	width: 1px;
-	margin: -1px;
-	padding: 0;
-	border: 0;
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
 }
 
 html,
@@ -65,10 +82,10 @@ body {
 
 a {
     display: inline-block;
-    
+
     text-decoration: none;
     vertical-align: center;
     color: inherit;
-    
+
     cursor: pointer;
 }
